@@ -32,7 +32,7 @@ public class QuickTest {
         List<User> userList = userMapper.selectList(null);
 //        Assert.assertEquals();及其重载方法:
 // 1. 如果两者一致, 程序继续往下运行. 2. 如果两者不一致, 中断测试方法, 抛出异常信息 AssertionFailedError .
-        Assert.assertEquals(5, userList.size());
+        Assert.assertEquals(7, userList.size());
         userList.forEach(System.out::println);
     }
 
