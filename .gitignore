@@ -5,6 +5,7 @@ target/
 
 # IntelliJ Idea
 .idea/
+.idea/*.xml
 out/
 *.ipr
 *.iws
