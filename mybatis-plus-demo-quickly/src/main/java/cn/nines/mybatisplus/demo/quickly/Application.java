@@ -1,4 +1,4 @@
-package cn.nines.mybatisplus;
+package cn.nines.mybatisplus.demo.quickly;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @SpringBootApplication
 @EnableTransactionManagement
-@MapperScan("cn.nines.mybatisplus.dao")
+@MapperScan("cn.nines.mybatisplus.demo.quickly.dao")
 public class Application {
 
     public static void main(String[] args) {

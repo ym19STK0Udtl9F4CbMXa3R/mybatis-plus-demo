@@ -1,6 +1,6 @@
-import cn.nines.mybatisplus.Application;
-import cn.nines.mybatisplus.dao.UserMapper;
-import cn.nines.mybatisplus.pojo.User;
+import cn.nines.mybatisplus.demo.quickly.Application;
+import cn.nines.mybatisplus.demo.quickly.dao.UserMapper;
+import cn.nines.mybatisplus.demo.quickly.pojo.User;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
@@ -14,14 +14,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 /**
- * @ClassName: QuickTest
+ * @ClassName: QuicklyTest
  * @Description: 快速测试
  * @author: Nines
  * @date: 2019年11月21日 22:16
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
-public class QuickTest {
+public class QuicklyTest {
 
     @Autowired
     private UserMapper userMapper;

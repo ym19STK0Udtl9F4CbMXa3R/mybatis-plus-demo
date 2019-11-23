@@ -1,4 +1,4 @@
-package cn.nines.mybatisplus.pojo;
+package cn.nines.mybatisplus.demo.quickly.pojo;
 
 import lombok.Data;
 

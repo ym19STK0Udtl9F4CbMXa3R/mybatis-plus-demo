@@ -1,6 +1,6 @@
-package cn.nines.mybatisplus.dao;
+package cn.nines.mybatisplus.demo.quickly.dao;
 
-import cn.nines.mybatisplus.pojo.User;
+import cn.nines.mybatisplus.demo.quickly.pojo.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 
