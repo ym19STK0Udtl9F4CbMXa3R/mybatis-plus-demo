@@ -1,4 +1,4 @@
-import cn.nines.mybatisplus.demo.quickly.Application;
+import cn.nines.mybatisplus.demo.quickly.QuicklyApplication;
 import cn.nines.mybatisplus.demo.quickly.dao.UserMapper;
 import cn.nines.mybatisplus.demo.quickly.pojo.User;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
@@ -20,7 +20,7 @@ import java.util.List;
  * @date: 2019年11月21日 22:16
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = QuicklyApplication.class)
 public class QuicklyTest {
 
     @Autowired

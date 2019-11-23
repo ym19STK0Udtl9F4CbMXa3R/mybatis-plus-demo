@@ -14,10 +14,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @MapperScan("cn.nines.mybatisplus.demo.quickly.dao")
-public class Application {
+public class QuicklyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(QuicklyApplication.class, args);
     }
 
 
