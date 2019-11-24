@@ -11,6 +11,7 @@
     <modules>
         <module>mybatis-plus-demo-quickly</module>
         <module>mybatis-plus-demo-generator</module>
+        <module>mybatis-plus-demo-pagination</module>
     </modules>
 
     <parent>
